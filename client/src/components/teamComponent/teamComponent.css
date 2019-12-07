@@ -1,0 +1,99 @@
+.team{
+    /* margin: 75px 0; */
+    margin-left: 20%;
+    margin-top:1%
+}
+.teamView{
+    margin-top: 32%;
+}
+/* h1{
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #333;
+    padding-bottom: 10px;
+}
+ h1::after{
+     content: '';
+     background: #333;
+     display: block;
+     height: 3px;
+     width: 150px;
+     margin: 10px auto;
+ } */
+
+ .profile{
+    margin-top: 25px;
+    border-radius: 10%
+    
+ }
+
+ .profile .img-box{
+     opacity: 1;
+    display: block; 
+    position: relative;
+ }
+ .profile h2{
+     font-size: 22px;
+     font-weight: bold;
+     margin-top: 15px;
+ }
+ .profile h3{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+ }
+
+ .img-box::after{
+     content: '';
+     opacity: 0;
+     background-color: rgba(0,0,0,0.6);
+     position: absolute;
+     right: 0;
+     left: 0;
+     top: 0;
+     bottom: 0;
+ }
+
+ .img-box ul{
+     margin:0;
+     padding: 20px 0;
+     position: absolute;
+     z-index: 1;
+     bottom: 0;
+     display: block;
+     left: 50%;
+     transform: translateX(-50%);
+     opacity: 0;
+ }
+
+ .img-box ul li{
+    width:30px;
+    height: 30px;
+    border:1px solid #fff;
+    border-radius: 50%;
+    margin: 3px;
+    padding: 3px;
+    display: inline-block;
+}
+
+.img-box a {
+    color: #fff;
+}
+.img-box:hover::after{
+    opacity: 1;
+}
+.img-box:hover ul{
+    opacity: 1;
+}
+
+.img-box  ul li:hover {
+    color: #007bff;
+    border: 1.5px solid #007bff;
+}
+.img-box li:hover a{
+    color: #007bff;
+}
+.img-box::after, .img-box ul, .img-box ul li{
+    transition: all 0.5s ease-in-out 0s;
+}

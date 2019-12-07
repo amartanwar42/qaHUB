@@ -1,0 +1,11 @@
+export const FETCH_USER = "fetch_user";
+export const FETCH_CATEGORY = "fetch_category";
+export const POST_SHAREKNOWLEDGE = "post_shareknowledge";
+export const FETCH_CONTENT="fetch_content"
+export const POST_CATEGORY="post_category"
+export const PENDING_SUBMISSION="pending_submission"
+export const ACTIVE_SUBMISSION="active_submission"
+export const UPDATE_CATEGORY="update_category"
+export const STATS="stats"
+export const USER_ALL_CONTENT="user_all_content"
+export const USER_PUBLISED_CONTENT="user_published_content"

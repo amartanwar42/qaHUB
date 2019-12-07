@@ -1,0 +1,70 @@
+.ant-carousel .slick-slide {
+    text-align: center;
+    height: 400px;
+    line-height: 160px;
+    background: #0f0f0e;
+    overflow: hidden;
+  }
+  
+  .ant-carousel .slick-slide h3 {
+    color: #fff;
+  }
+  .ant-input-group {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top: 10%;
+    margin-left: 30%;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 14px;
+    font-variant: tabular-nums;
+    line-height: 1.5;
+    list-style: none;
+    font-Family: 'Poppins';
+    position: relative;
+    display: table;
+    width: 40%;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.ant-carousel .slick-slide {
+  text-align: center;
+  height: 400px;
+  line-height: 160px;
+  background: #0f0f0e;
+  overflow: hidden;
+}
+
+.ant-carousel .slick-slide h3 {
+  color: #fff;
+}
+
+@media only screen and (max-width: 650px){
+.ant-form {
+  max-width: 250px;
+}
+ .ant-input-group {
+  font-Family: 'Poppins';
+  width: 110%;
+}
+}
+
+@media only screen and (min-width: 650px){
+.ant-tabs-nav-container{
+  font-size: 17px;
+  line-height: 1.5;
+  font-Family: 'Poppins';
+  margin-left: 20%;
+  margin-right: 20%;
+}
+}
+
+.contentPageText{
+  background-image: url("https://images.pexels.com/photos/1452701/pexels-photo-1452701.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    /* background-color: #ccca92; */
+    background-size: cover;
+    height: 450px;
+    /* margin-top: -200px; */
+    padding-top: 150px;
+}
