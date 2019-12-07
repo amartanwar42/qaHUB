@@ -251,8 +251,8 @@ module.exports = app => {
                 })                   
         })
 
-        await User.distinct('_user').countDocuments().then(result=>{
-            contributors=result
+        await ShareKnowledgeForm.distinct('_user').then(  result=>{
+            contributors=result.length
         })
             .catch(err => {
                 res.status(500).json({
