@@ -9,7 +9,6 @@ import {
   Select,
   Tooltip,
   Icon,
-  Checkbox,
   Button,
   AutoComplete,
   Modal,
