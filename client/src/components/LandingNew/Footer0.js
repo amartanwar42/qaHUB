@@ -17,7 +17,7 @@ class Footer extends React.PureComponent {
             
             // {...dataSource.copyright}
           >
-            ©2019 <a href="https://www.thoughtworks.com">ThoughtWorks</a> All Rights Reserved
+           <a href="https://choosealicense.com/licenses/mit/" alt="/">MIT License</a> ©2019  qaHUB
           </TweenOne>
         </OverPack>
       </div>

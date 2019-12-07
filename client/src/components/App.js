@@ -2,21 +2,16 @@ import React, { Component} from 'react'
 import {BrowserRouter, Route} from 'react-router-dom';
 import { connect } from 'react-redux'
 import * as actions from '../actions'
-import Header1 from './Header1'
-import LandingPage from './Landing'
 import EventsPage from'./Events'
 import ShareKnowledge from './shareknowledge/ShareKnowledge'
 import LoginAlert from './generic/LoginAlert'
 import SuccessResult from './shareknowledge/SuccessResult'
 import ContentPage from './ContentPage';
 import CategoryPage from './CategoryPage'
-import Footer from './footer/Footer'
 import Loading from './Loading'
 import Profile from './profile/SideNav'
 import LandingNew from './LandingNew/index'
-import Nav0 from './LandingNew/Nav0';
-import Footer0 from './LandingNew/Footer0'
-import {Nav00DataSource,Footer00DataSource} from './LandingNew/data.source';
+import {Nav00DataSource} from './LandingNew/data.source';
 import { enquireScreen } from 'enquire-js';
 import Test from './LandingNew/Test'
 
@@ -45,24 +40,23 @@ class App extends Component {
           });
         }, 500);
       }
-       await this.props.fetchUser().then(result=>{
-           switch(this.props.auth.status){
+       await this.props.fetchUser().then(() => {
+           switch (this.props.auth.status) {
                case false:
-                this.setState({
-                    headerState:false
-                    })
-                break;
-                case true:
-                this.setState({
-                    headerState:true,
-                    imagePath:this.props.auth.message.imageLink
-                    })
-                break;
+                   this.setState({
+                       headerState: false
+                   });
+                   break;
+               case true:
+                   this.setState({
+                       headerState: true,
+                       imagePath: this.props.auth.message.imageLink
+                   });
+                   break;
                default:
-                this.setState({
-                    headerState:false
-                })
-               
+                   this.setState({
+                       headerState: false
+                   });
            }
        });
        await this.props.fetchCategory();

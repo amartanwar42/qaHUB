@@ -43,145 +43,145 @@ export const Nav00DataSource = {
           ],
         },
       },
-      {
-        name: 'item2',
-        className: 'header0-item',
-        children: {
-          href:'#',
-          children: [
-            {
-              children: (
-                <>
-                  <p>VodQA</p>
-                </>
-              ),
-              name: 'text',
-            },
-          ],
-        },
-        subitem: [
-          {
-            name: 'sub~k1iwybe20xj',
-            className: 'item-sub k1irgs7prw-editor_css',
-            children: {
-              className: 'item-sub-item k1ir5dvg7ef-editor_css',
-              href: 'https://thoughtworks-bangalore.github.io/vodQA/',
-              target:'_',
-              children: [
-                {
-                  name: 'title',
-                  className: 'item-title k1irx9xnodq-editor_css',
-                  children: (
-                    <>
-                      <p>Bangalore</p>
-                    </>
-                  ),
-                },
-              ],
-            },
-          },
-          {
-            name: 'sub~k1iwybe2ar',
-            className: 'item-sub k1irka5nvpa-editor_css',
-            children: {
-              className: 'item-sub-item k1ir5dvg7ef-editor_css',
-              href: 'https://twhyderabad.github.io/vodqa/',
-              target:'_',
-              children: [
-                {
-                  name: 'title',
-                  className: 'item-title k1irhltzoko-editor_css',
-                  children: (
-                    <>
-                      <p>Hyderabad</p>
-                    </>
-                  ),
-                },
-              ],
-            },
-          },
-          {
-            name: 'sub~k1iwybe2ihe',
-            className: 'item-sub k1irkdbtsc-editor_css',
-            children: {
-              className: 'item-sub-item k1ir5dvg7ef-editor_css',
-              href: 'https://thoughtworks-bangalore.github.io/vodQA/',
-              target:'_',
-              children: [
-                {
-                  name: 'title',
-                  className: 'item-title k1irpjne2xo-editor_css',
-                  children: (
-                    <>
-                      <p>Pune</p>
-                    </>
-                  ),
-                },
-              ],
-            },
-          },
-          {
-            name: 'sub~k1iwybe2xh',
-            className: 'item-sub k1irkdbtsc-editor_css',
-            children: {
-              className: 'item-sub-item k1ir5dvg7ef-editor_css',
-              href: 'https://thoughtworks-bangalore.github.io/vodQA/',
-              target:'_',
-              children: [
-                {
-                  name: 'title',
-                  className: 'item-title k1irptnswbf-editor_css',
-                  children: (
-                    <>
-                      <p>Gurgaon</p>
-                    </>
-                  ),
-                },
-              ],
-            },
-          },
-          {
-            name: 'sub~k1iwybe2ta',
-            className: 'item-sub k1irkdbtsc-editor_css',
-            children: {
-              className: 'item-sub-item k1ir5dvg7ef-editor_css',
-              href: 'https://thoughtworks-bangalore.github.io/vodQA/',
-              target:'_',
-              children: [
-                {
-                  name: 'title',
-                  className: 'item-title k1irpzeqlf-editor_css',
-                  children: (
-                    <>
-                      <p>Coimbatore</p>
-                    </>
-                  ),
-                },
-              ],
-            },
-          },
-          {
-            name: 'sub~k1iwybe2klc',
-            className: 'item-sub k1irkdbtsc-editor_css',
-            children: {
-              className: 'item-sub-item k1ir5dvg7ef-editor_css',
-              href: 'https://thoughtworks-bangalore.github.io/vodQA/',
-              target:'_',
-              children: [
-                {
-                  name: 'title',
-                  className: 'item-title k1is1pi943r-editor_css',
-                  children: (
-                    <>
-                      <p>Chennai</p>
-                    </>
-                  ),
-                },
-              ],
-            },
-          },
-        ],
-      },
+      // {
+      //   name: 'item2',
+      //   className: 'header0-item',
+      //   children: {
+      //     href:'#',
+      //     children: [
+      //       {
+      //         children: (
+      //           <>
+      //             <p>VodQA</p>
+      //           </>
+      //         ),
+      //         name: 'text',
+      //       },
+      //     ],
+      //   },
+      //   subitem: [
+      //     {
+      //       name: 'sub~k1iwybe20xj',
+      //       className: 'item-sub k1irgs7prw-editor_css',
+      //       children: {
+      //         className: 'item-sub-item k1ir5dvg7ef-editor_css',
+      //         href: 'https://thoughtworks-bangalore.github.io/vodQA/',
+      //         target:'_',
+      //         children: [
+      //           {
+      //             name: 'title',
+      //             className: 'item-title k1irx9xnodq-editor_css',
+      //             children: (
+      //               <>
+      //                 <p>Bangalore</p>
+      //               </>
+      //             ),
+      //           },
+      //         ],
+      //       },
+      //     },
+      //     {
+      //       name: 'sub~k1iwybe2ar',
+      //       className: 'item-sub k1irka5nvpa-editor_css',
+      //       children: {
+      //         className: 'item-sub-item k1ir5dvg7ef-editor_css',
+      //         href: 'https://twhyderabad.github.io/vodqa/',
+      //         target:'_',
+      //         children: [
+      //           {
+      //             name: 'title',
+      //             className: 'item-title k1irhltzoko-editor_css',
+      //             children: (
+      //               <>
+      //                 <p>Hyderabad</p>
+      //               </>
+      //             ),
+      //           },
+      //         ],
+      //       },
+      //     },
+      //     {
+      //       name: 'sub~k1iwybe2ihe',
+      //       className: 'item-sub k1irkdbtsc-editor_css',
+      //       children: {
+      //         className: 'item-sub-item k1ir5dvg7ef-editor_css',
+      //         href: 'https://thoughtworks-bangalore.github.io/vodQA/',
+      //         target:'_',
+      //         children: [
+      //           {
+      //             name: 'title',
+      //             className: 'item-title k1irpjne2xo-editor_css',
+      //             children: (
+      //               <>
+      //                 <p>Pune</p>
+      //               </>
+      //             ),
+      //           },
+      //         ],
+      //       },
+      //     },
+      //     {
+      //       name: 'sub~k1iwybe2xh',
+      //       className: 'item-sub k1irkdbtsc-editor_css',
+      //       children: {
+      //         className: 'item-sub-item k1ir5dvg7ef-editor_css',
+      //         href: 'https://thoughtworks-bangalore.github.io/vodQA/',
+      //         target:'_',
+      //         children: [
+      //           {
+      //             name: 'title',
+      //             className: 'item-title k1irptnswbf-editor_css',
+      //             children: (
+      //               <>
+      //                 <p>Gurgaon</p>
+      //               </>
+      //             ),
+      //           },
+      //         ],
+      //       },
+      //     },
+      //     {
+      //       name: 'sub~k1iwybe2ta',
+      //       className: 'item-sub k1irkdbtsc-editor_css',
+      //       children: {
+      //         className: 'item-sub-item k1ir5dvg7ef-editor_css',
+      //         href: 'https://thoughtworks-bangalore.github.io/vodQA/',
+      //         target:'_',
+      //         children: [
+      //           {
+      //             name: 'title',
+      //             className: 'item-title k1irpzeqlf-editor_css',
+      //             children: (
+      //               <>
+      //                 <p>Coimbatore</p>
+      //               </>
+      //             ),
+      //           },
+      //         ],
+      //       },
+      //     },
+      //     {
+      //       name: 'sub~k1iwybe2klc',
+      //       className: 'item-sub k1irkdbtsc-editor_css',
+      //       children: {
+      //         className: 'item-sub-item k1ir5dvg7ef-editor_css',
+      //         href: 'https://thoughtworks-bangalore.github.io/vodQA/',
+      //         target:'_',
+      //         children: [
+      //           {
+      //             name: 'title',
+      //             className: 'item-title k1is1pi943r-editor_css',
+      //             children: (
+      //               <>
+      //                 <p>Chennai</p>
+      //               </>
+      //             ),
+      //           },
+      //         ],
+      //       },
+      //     },
+      //   ],
+      // },
       {
         name: 'item3',
         className: 'header0-item',
@@ -587,7 +587,7 @@ export const Teams10DataSource = {
               children: (
                 <>
                   <p>
-                    <i>&nbsp; &nbsp; &nbsp;Developer and Creator of qaHUB</i>
+                    <i><b>Creator of qaHUB</b></i>
                   </p>
                 </>
               ),
@@ -597,7 +597,7 @@ export const Teams10DataSource = {
               className: 'teams1-content',
               children: (
                 <>
-                  <p>&nbsp; &nbsp; &nbsp;Quality analyst at ThoughtWorks</p>
+                  <p>Quality analyst at ThoughtWorks</p>
                 </>
               ),
             },
@@ -631,9 +631,9 @@ export const Teams10DataSource = {
               className: 'teams1-job',
               children: (
                 <>
-                  <p>
+                  {/* <p>
                     <i>EventOrganiser and Content Management at qaHUB</i>
-                  </p>
+                  </p> */}
                 </>
               ),
             },
@@ -676,9 +676,9 @@ export const Teams10DataSource = {
               className: 'teams1-job',
               children: (
                 <>
-                  <p>
+                  {/* <p>
                     <i>EventOrganiser and Content Management at qaHUB</i>
-                  </p>
+                  </p> */}
                 </>
               ),
             },
@@ -840,7 +840,7 @@ export const Footer00DataSource = {
     children: (
       <>
         <span>
-          ©2018 <a href="https://motion.ant.design">Ant Motion</a> All Rights
+          ©2019 <a href="https://motion.ant.design">Ant Motion</a> All Rights
           Reserved
         </span>
       </>

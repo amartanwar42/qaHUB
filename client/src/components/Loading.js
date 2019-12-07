@@ -9,7 +9,7 @@ class Loading extends Component {
             css={this.props.css}
           sizeUnit={"px"}
           size={25}
-          color={'#00b3e7'}/>
+          color={'#3CB371'}/>
         )
     }
 }
