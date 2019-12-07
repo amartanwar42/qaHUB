@@ -13,7 +13,7 @@ import Profile from './profile/SideNav'
 import LandingNew from './LandingNew/index'
 import {Nav00DataSource} from './LandingNew/data.source';
 import { enquireScreen } from 'enquire-js';
-import Test from './LandingNew/Test'
+import Navbar from './LandingNew/Navbar'
 
 const { location } = window;
 let isMobile;
@@ -67,7 +67,7 @@ class App extends Component {
             return(
                 <div>
                     {/* <Header1 /> */}
-                    <Test
+                    <Navbar
                         id="Nav0_0"
                         key="Nav0_0"
                         dataSource={Nav00DataSource}

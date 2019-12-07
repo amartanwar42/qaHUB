@@ -615,7 +615,7 @@ export const Teams10DataSource = {
               name: 'image',
               className: 'teams1-image',
               children:
-                'https://avatars3.githubusercontent.com/u/4985886?s=460&v=4',
+                'https://github.com/amartanwar42/ThoughtWorks-QA-Knowledge-Hub/blob/master/images/cards/agileContent/vinayaka.jpeg?raw=true',
             },
             {
               name: 'title',
@@ -660,7 +660,7 @@ export const Teams10DataSource = {
               name: 'image',
               className: 'teams1-image',
               children:
-                'https://media.licdn.com/dms/image/C5103AQHlfe9tHpRDuw/profile-displayphoto-shrink_200_200/0?e=1580947200&v=beta&t=vr2bl92SJu8_DuXuUxYYpIGixMOxZTaygbFqPKezMW8',
+                'https://raw.githubusercontent.com/amartanwar42/ThoughtWorks-QA-Knowledge-Hub/master/images/cards/agileContent/lipika.jpeg',
             },
             {
               name: 'title',
