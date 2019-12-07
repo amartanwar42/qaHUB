@@ -251,7 +251,7 @@ module.exports = app => {
                 })                   
         })
 
-        await User.countDocuments().then(result=>{
+        await User.distinct('_user').countDocuments().then(result=>{
             contributors=result
         })
             .catch(err => {
