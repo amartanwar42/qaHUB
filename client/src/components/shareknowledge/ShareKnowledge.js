@@ -27,7 +27,7 @@ class RegistrationForm extends React.Component {
   success(successMessage) {
     Modal.success({
       title: 'Success',
-      content: `${successMessage}`,
+      content: `Thanks for sharing knowledge. We are reviewing it. Please check the status under My Submission.`,
       destroyOnClose:true,
       onOk:()=>{
         window.location.reload();
