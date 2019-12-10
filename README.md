@@ -37,4 +37,4 @@ You can share that in qaHUB (Under ShareKnowledge ). So it will be easily access
 
 
 # License
-qaHUB is released under MIT License
+qaHUB is released under MIT License Copyright 2019
