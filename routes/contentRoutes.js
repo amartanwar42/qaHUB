@@ -251,7 +251,7 @@ module.exports = app => {
                 })                   
         })
 
-        await ShareKnowledgeForm.distinct('_user').then(  result=>{
+        await ShareKnowledgeForm.distinct('_user',{'status':'published'}).then(  result=>{
             contributors=result.length
         })
             .catch(err => {
