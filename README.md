@@ -1,4 +1,6 @@
 # qaHUB
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/) <img alt="Maintenance" src="https://img.shields.io/maintenance/yes/2019"> <img alt="GitHub issues" src="https://img.shields.io/github/issues/amartanwar42/qaHUB"> <img alt="GitHub forks" src="https://img.shields.io/github/forks/amartanwar42/qahub?style=flat-square"> <img alt="GitHub stars" src="https://img.shields.io/github/stars/amartanwar42/qahub"> <img alt="GitHub watchers" src="https://img.shields.io/github/watchers/amartanwar42/qahub"> <img alt="GitHub" src="https://img.shields.io/github/license/amartanwar42/qahub?style=flat-square">
+
 Hub to share and osmose knowledge
 
 qaHUB site: http://qahub-community.herokuapp.com/ 
