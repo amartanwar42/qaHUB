@@ -288,7 +288,7 @@ export const Banner01DataSource = {
   title: {
     className: 'banner0-title',
     // children: 'client/src/components/LandingNew/wordcloud.svg',
-    children:"A common place to learn and share knowledge"
+    children:"Hub to share and osmose knowledge"
   },
   content: {
     className: 'banner0-content',
