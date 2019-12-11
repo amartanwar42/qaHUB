@@ -25,7 +25,7 @@ class CreateCategoryForm extends React.Component {
       title: 'Success',
       content: `${successMessage}`,
       onOk:()=>{
-        // window.location.reload();
+        window.location.reload();
       }
     });
   }

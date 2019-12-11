@@ -137,6 +137,7 @@ class CategoryList extends Component {
                   title="Are you sure to delete this?"
                   onConfirm={async ()=>{
                     await axios.delete(`/api/content/deleteCategory?categoryId=${record.id}`)
+                    window.location.reload();
                   }}
                   okText="Yes"
                   cancelText="No"

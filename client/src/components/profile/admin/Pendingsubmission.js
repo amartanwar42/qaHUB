@@ -40,6 +40,7 @@ const columns = [
             title="Are you sure to publish this?"
             onConfirm={async ()=>{
               await axios.put(`/api/content/editShareKnowledge?contentId=${record.id}`,{"status":"published"})
+              window.location.reload();
             }}
             okText="Yes"
             cancelText="No"
@@ -61,9 +62,17 @@ class Pendingsubmission extends Component {
 
     async componentDidMount() {
         await this.props.fetchPendingContent('pending').then(results =>{
-          this.setState({
-            pendingSubmissionList:this.props.pendingSubmission.message
-          })
+          switch(this.props.pendingSubmission){
+            case null:
+            this.setState({
+              pendingSubmissionList:null
+            })
+            break
+            default:
+            this.setState({
+              pendingSubmissionList:this.props.pendingSubmission.message
+            })
+          }
         })
     }
     getCategoryList() {

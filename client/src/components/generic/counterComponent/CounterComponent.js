@@ -17,15 +17,15 @@ export class CounterComponent extends Component {
 
     async componentDidMount(){
         await this.props.fetchStats().then(result=>{
-            switch(this.props.stats.status){
-                case true:
-                this.setState({
-                    loaded:true
-                    })
-                break
-               default:
+            switch(this.props.stats){ 
+                case null:
                 this.setState({
                     loaded:false
+                    })    
+                    break;    
+               default:
+                this.setState({
+                    loaded:true
                 })
 
             }

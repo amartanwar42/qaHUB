@@ -21,6 +21,22 @@ class SideNav extends Component {
         activeSubmissions: false,
         admin: false,
         categoryList:false,
+        adminMenu:false
+    }
+    async componentWillMount(){
+        await this.props.fetchUser().then(auth=>{
+            switch(this.props.auth){
+                case null:
+                this.setState({
+                    adminMenu:false
+                })
+                break
+                default:
+                this.setState({
+                    adminMenu:true
+                })
+            }
+        })
     }
 
     handler=()=>{
@@ -73,7 +89,12 @@ class SideNav extends Component {
     }
 
     renderAdmin(){
-        if(this.props.auth.message.role==='admin')
+        switch (this.state.adminMenu){
+            case false:
+            return null;
+            default:
+            console.log(this.props.auth.message.role)
+            if(this.props.auth.message.role==='admin')
         {
             return(<SubMenu
                 key="sub2"
@@ -135,6 +156,8 @@ class SideNav extends Component {
                 {/* <Menu.Item key="8">option8</Menu.Item> */}
             </SubMenu>)
         }
+        }
+        
     }
 
 
