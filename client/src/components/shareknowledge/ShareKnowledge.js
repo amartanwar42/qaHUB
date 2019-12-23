@@ -254,7 +254,7 @@ class RegistrationForm extends React.Component {
           }
         >
           {getFieldDecorator('description', {
-            rules: [{ required: true, message: 'Description should not be more than 140 characters!', whitespace: true,max:140}],
+            rules: [{ required: true, message: 'Please enter short description!', whitespace: true}],
           })(<TextArea placeholder="Short description of the content"
           autosize={{ minRows: 2, maxRows: 3 }} />)}
         </Form.Item>

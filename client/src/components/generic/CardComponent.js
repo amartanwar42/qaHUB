@@ -37,7 +37,7 @@ class CardComponent extends Component{
 
                 hoverable={true}
                 bordered={true}
-                style={{ maxWidth:'330px',minWidth:'330px',maxHeight:'430px',boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2)', marginBottom:'3%'}}
+                style={{ maxWidth:'330px',minWidth:'330px',maxHeight:'450px',boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2)', marginBottom:'3%'}}
                 cover={
                 <img
                 src={imagesrc}
@@ -50,14 +50,23 @@ class CardComponent extends Component{
                 
                 // <Icon type="like" />
                 ]}  
+                
             >
                 <Meta
                 avatar={
                     <UserModel avatar={this.props.profileImage} userId={this.props.userId} userName={this.props.userName}/>
                 }
-                title={this.props.contentTitle}
-                description={this.props.contentDescription}
+                title={<span style={{display: 'flex', wordWrap: 'break-word',whiteSpace: 'pre-wrap'}} >{this.props.contentTitle}</span>}
+                // description={this.props.contentDescription}
+                description={<span style={{display: 'block',
+                    display: '-webkit-box',
+                    maxWidth: '330px',
+                    WebkitLineClamp:4,
+                    WebkitBoxOrient:'vertical',
+                    overflow: 'hidden',
+                    textOverflow: 'ellipsis'}}>{this.props.contentDescription}</span>}
                 />
+                
             </Card>
         )   
     }
