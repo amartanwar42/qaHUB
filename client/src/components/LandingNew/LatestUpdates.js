@@ -41,7 +41,7 @@ class LatestUpdates extends Component {
                                 <Avatar size="large" src={content._user.imageLink} >
                                 </Avatar>
                             </div>
-                            <p name="title"  style={{marginLeft:'50px', marginTop:'10px'}}>{content.title}</p>
+                            <p name="title"  style={{marginLeft:'50px', marginTop:'10px'}}><b>{content.title}</b></p>
                             <div name="content" style={{marginLeft:'50px'}} className="feature7-block-content"><p>{content.description}</p></div>
                         </a>
                     </Col>)
