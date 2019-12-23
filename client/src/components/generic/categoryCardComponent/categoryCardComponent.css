@@ -95,7 +95,7 @@ body {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     transform-style: preserve-3d;
-    transition: ease-in-out 1000ms;
+    transition: ease-in-out 2500ms;
     box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
 }
 
